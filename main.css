@@ -1,7 +1,8 @@
 :root {
   --primary-color: #fffbfa;
   --border-color: 1px solid #e0e0e0;
-  --btn-color-1: #ce93d8;
+  --text-color: #fefefe;
+  --btn-color-1: #ef5350;
   --btn-color-2: #b39ddb;
   --btn-color-3: #9fa8da;
   --btn-color-4: #90caf9;
@@ -35,22 +36,22 @@ a {
   border-right: var(--border-color);
   height: 100%;
   left: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
-  width: 360px;
+  width: 390px;
 }
 
 #navbar ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  height: calc(100% - 135px);
   overflow-x: hidden;
   overflow-y: scroll;
-  white-space: nowrap;
 }
 
 #navbar li {
   list-style: none;
-  margin: 20px auto;
+  margin: 15px auto;
 }
 
 header {
@@ -59,13 +60,33 @@ header {
 }
 
 .title {
-  color: #5c6bc0;
+  color: #6c757d;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .btn {
   background-color: #5c6bc0;
-  color: #000;
-  padding: 10px 25px;
+  border: none;
+  color: #0c0c0c;
+  cursor: pointer;
+  outline: 0;
+  padding: 15px 35px;
+}
+
+/* Button 1 */
+.btn-1 {
+  background-color: var(--btn-color-1);
+  color: var(--text-color);
+}
+
+.btn-2 {
+  background-color: var(--btn-color-1);
+  color: var(--text-color);
+  transform: skewX(-15deg);
+}
+
+section {
+  position: absolute;
+  margin-left: 405px;
 }
