@@ -1,11 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 :root {
-  --primary-color: #fffbfa;
-  --border-color: 1px solid #e0e0e0;
-  --text-color: #fefefe;
-  --btn-color-1: #ef5350;
-  --btn-color-2: #b39ddb;
-  --btn-color-3: #9fa8da;
-  --btn-color-4: #90caf9;
+  --primary-color: #12171b;
+  --border-color: 1px solid #292e31;
+  --text-color: #f2f2f2;
+  --btn-color-1: #dfe1dc;
+  --btn-color-2: #b180d0;
+  --btn-color-3: #0583f2;
+  --btn-color-4: #5ab17c;
+  --btn-color-5: #32c1ca;
+  --btn-color-6: #ffb17a;
+  --btn-color-7: #566db3;
+  --btn-color-8: #9fcad4;
+  --btn-color-9: #05c7f2;
+  --btn-color-10: #05f2c7;
+  --btn-color-11: #3c4359;
+  --btn-color-12: #a2cdf2;
+  --btn-color-13: #16f2b4;
+  --btn-color-14: #d4d264;
+  --btn-color-15: #f2ea79;
+  --btn-color-16: #f27781;
 }
 
 *,
@@ -22,7 +36,8 @@ html {
 
 body {
   background-color: var(--primary-color);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+  font-family: "Montserrat", sans-serif;
   font-size: calc(10px + 2vmin);
 }
 
@@ -60,7 +75,10 @@ header {
 }
 
 .title {
-  color: #6c757d;
+  /* background: linear-gradient(to right, hsl(240, 67%, 94%), hsl(210, 13%, 50%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #e7e7e8;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -70,20 +88,235 @@ header {
   border: none;
   color: #0c0c0c;
   cursor: pointer;
+  font-weight: 600;
   outline: 0;
   padding: 15px 35px;
+  text-transform: uppercase;
 }
 
 /* Button 1 */
 .btn-1 {
-  background-color: var(--btn-color-1);
-  color: var(--text-color);
+  background-color: transparent;
+  border: 3px solid var(--btn-color-1);
+  border-radius: 3px;
+  color: var(--btn-color-1);
 }
 
 .btn-2 {
-  background-color: var(--btn-color-1);
-  color: var(--text-color);
-  transform: skewX(-15deg);
+  background-color: transparent;
+  border: 3px solid var(--btn-color-1);
+  border-radius: 25px;
+  color: var(--btn-color-1);
+}
+
+/* Button 2 */
+.btn-3 {
+  background-color: transparent;
+  border: 3px solid var(--btn-color-2);
+  color: var(--btn-color-2);
+}
+
+.btn-4 {
+  background-color: transparent;
+  border: 3px solid var(--btn-color-2);
+  border-radius: 25px;
+  color: var(--btn-color-2);
+}
+
+/* Button 3 */
+.btn-5 {
+  background: transparent;
+  border: 3px solid var(--btn-color-3);
+  color: var(--btn-color-3);
+}
+
+.btn-6 {
+  background: transparent;
+  border: 3px solid var(--btn-color-3);
+  border-radius: 25px;
+  color: var(--btn-color-3);
+}
+
+/* Button 4 */
+.btn-7 {
+  background: transparent;
+  border: 3px solid var(--btn-color-4);
+  color: var(--btn-color-4);
+}
+
+.btn-8 {
+  background: transparent;
+  border: 3px solid var(--btn-color-4);
+  border-radius: 25px;
+  color: var(--btn-color-4);
+}
+
+/* Button 5 */
+.btn-9 {
+  background: transparent;
+  border: 3px solid var(--btn-color-5);
+  color: var(--btn-color-5);
+}
+
+.btn-10 {
+  background: transparent;
+  border: 3px solid var(--btn-color-5);
+  border-radius: 25px;
+  color: var(--btn-color-5);
+}
+
+/* Button 6 */
+.btn-11 {
+  background: transparent;
+  border: 3px solid var(--btn-color-6);
+  color: var(--btn-color-6);
+}
+
+.btn-12 {
+  background: transparent;
+  border: 3px solid var(--btn-color-6);
+  border-radius: 25px;
+  color: var(--btn-color-6);
+}
+
+/* Button 7 */
+.btn-13 {
+  background: transparent;
+  border: 3px solid var(--btn-color-7);
+  color: var(--btn-color-7);
+}
+
+.btn-14 {
+  background: transparent;
+  border: 3px solid var(--btn-color-7);
+  border-radius: 25px;
+  color: var(--btn-color-7);
+}
+
+/* Button 8 */
+.btn-15 {
+  background: transparent;
+  border: 3px solid var(--btn-color-8);
+  color: var(--btn-color-8);
+}
+
+.btn-16 {
+  background: transparent;
+  border: 3px solid var(--btn-color-8);
+  border-radius: 25px;
+  color: var(--btn-color-8);
+}
+
+/* Button 9 */
+.btn-17 {
+  background: transparent;
+  border: 3px solid var(--btn-color-9);
+  color: var(--btn-color-9);
+}
+
+.btn-18 {
+  background: transparent;
+  border: 3px solid var(--btn-color-9);
+  border-radius: 25px;
+  color: var(--btn-color-9);
+}
+
+/* Button 10 */
+.btn-19 {
+  background: transparent;
+  border: 3px solid var(--btn-color-10);
+  color: var(--btn-color-10);
+}
+
+.btn-20 {
+  background: transparent;
+  border: 3px solid var(--btn-color-10);
+  color: var(--btn-color-10);
+  border-radius: 25px;
+}
+
+/* Button 11 */
+.btn-21 {
+  background: transparent;
+  border: 3px solid var(--btn-color-11);
+  color: var(--btn-color-11);
+}
+
+.btn-22 {
+  background: transparent;
+  border: 3px solid var(--btn-color-11);
+  color: var(--btn-color-11);
+  border-radius: 25px;
+}
+
+/* Button 12 */
+.btn-23 {
+  background: transparent;
+  border: 3px solid var(--btn-color-12);
+  color: var(--btn-color-12);
+}
+
+.btn-24 {
+  background: transparent;
+  border: 3px solid var(--btn-color-12);
+  color: var(--btn-color-12);
+  border-radius: 25px;
+}
+
+/* Button 13 */
+.btn-25 {
+  background: transparent;
+  border: 3px solid var(--btn-color-13);
+  color: var(--btn-color-13);
+}
+
+.btn-26 {
+  background: transparent;
+  border: 3px solid var(--btn-color-13);
+  color: var(--btn-color-13);
+  border-radius: 25px;
+}
+
+/* Button 14 */
+.btn-27 {
+  background: transparent;
+  border: 3px solid var(--btn-color-14);
+  color: var(--btn-color-14);
+}
+
+.btn-28 {
+  background: transparent;
+  border: 3px solid var(--btn-color-14);
+  color: var(--btn-color-14);
+  border-radius: 25px;
+}
+
+/* Button 15 */
+.btn-29 {
+  background: transparent;
+  border: 3px solid var(--btn-color-15);
+  color: var(--btn-color-15);
+}
+
+.btn-30 {
+  background: transparent;
+  border: 3px solid var(--btn-color-15);
+  color: var(--btn-color-15);
+  border-radius: 25px;
+}
+
+/* Button 16 */
+.btn-31 {
+  background: transparent;
+  border: 3px solid var(--btn-color-16);
+  color: var(--btn-color-16);
+}
+
+.btn-32 {
+  background: transparent;
+  border: 3px solid var(--btn-color-16);
+  color: var(--btn-color-16);
+  border-radius: 25px;
 }
 
 section {
