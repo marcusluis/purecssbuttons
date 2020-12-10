@@ -122,6 +122,7 @@ header {
 .btn-1:hover {
   box-shadow: 0 0 7px 3px var(--btn-color-1);
   color: var(--btn-color-1);
+  text-shadow: 0 0 1px var(--btn-color-1);
 }
 
 .btn-2 {
@@ -134,6 +135,7 @@ header {
 .btn-2:hover {
   box-shadow: 0 0 7px 3px var(--btn-color-1);
   color: var(--btn-color-1);
+  text-shadow: 0 0 1px var(--btn-color-1);
 }
 
 /* Button 2 */
@@ -151,18 +153,21 @@ header {
 
 .btn-3::before {
   content: "";
+  display: block;
   background-color: var(--btn-color-2);
-  top: -18px;
-  left: -198px;
-  width: 180px;
-  height: 80px;
+  height: 100%;
   position: absolute;
-  transition: 0.6s ease-in-out 50ms;
+  right: 0px;
+  top: 0px;
+  transition: 0.6s cubic-bezier(0.62, 0, 0.45, 1);
+  width: 0px;
   z-index: -1;
 }
 
 .btn-3:hover::before {
-  transform: translateX(175px);
+  left: 0%;
+  right: auto;
+  width: 100%;
 }
 
 .btn-4 {
@@ -180,32 +185,57 @@ header {
 
 .btn-4::before {
   content: "";
+  display: block;
   background-color: var(--btn-color-2);
-  top: -18px;
-  left: -198px;
-  width: 180px;
-  height: 80px;
+  height: 100%;
   position: absolute;
-  transition: 0.6s ease-in-out 50ms;
+  right: 0px;
+  top: 0px;
+  transition: 0.6s cubic-bezier(0.62, 0, 0.45, 1);
+  width: 0px;
   z-index: -1;
 }
 
 .btn-4:hover::before {
-  transform: translateX(175px);
+  left: 0%;
+  right: auto;
+  width: 100%;
 }
 
 /* Button 3 */
 .btn-5 {
   background: transparent;
-  border: 3px solid var(--btn-color-3);
+  box-shadow: 0 0 0 3px var(--btn-color-3);
   color: var(--btn-color-3);
+  outline: 1px solid;
+  outline-color: var(--btn-color-3);
+  outline-offset: 0px;
+  transition: all 2s cubic-bezier(0.21, 1, 0.21, 1);
+}
+
+.btn-5:hover {
+  box-shadow: 0 0 20px var(--btn-color-3), 0 0 20px var(--btn-color-3);
+  outline-color: transparent;
+  outline-offset: 15px;
+  text-shadow: 0 0 1px var(--btn-color-3);
 }
 
 .btn-6 {
   background: transparent;
-  border: 3px solid var(--btn-color-3);
+  box-shadow: 0 0 0 3px var(--btn-color-3);
   border-radius: 25px;
   color: var(--btn-color-3);
+  outline-color: var(--btn-color-3);
+  outline-offset: 0px;
+  transition: all 2s cubic-bezier(0.21, 1, 0.21, 1);
+}
+
+.btn-6:hover {
+  border-radius: 25px;
+  box-shadow: 0 0 20px var(--btn-color-3), 0 0 20px var(--btn-color-3);
+  outline-color: transparent;
+  outline-offset: 15px;
+  text-shadow: 0 0 1px var(--btn-color-3);
 }
 
 /* Button 4 */
@@ -213,6 +243,35 @@ header {
   background: transparent;
   border: 3px solid var(--btn-color-4);
   color: var(--btn-color-4);
+  display: block;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.185, 0.54, 0.315, 1);
+}
+
+.btn-7:hover {
+  color: #000000;
+  background-color: transparent;
+  text-shadow: none;
+}
+
+.btn-7::before {
+  background: var(--btn-color-4);
+  color: #000000;
+  content: "";
+  display: block;
+  height: 0px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  transition: all 0.5s cubic-bezier(0.185, 0.54, 0.315, 1);
+  width: 100%;
+  z-index: -1;
+}
+
+.btn-7:hover::before {
+  bottom: 0%;
+  height: 100%;
+  top: auto;
 }
 
 .btn-8 {
@@ -220,6 +279,36 @@ header {
   border: 3px solid var(--btn-color-4);
   border-radius: 25px;
   color: var(--btn-color-4);
+  display: block;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.185, 0.54, 0.315, 1);
+}
+
+.btn-8:hover {
+  color: #000000;
+  background-color: transparent;
+  text-shadow: none;
+}
+
+.btn-8::before {
+  background: var(--btn-color-4);
+  color: #000000;
+  content: "";
+  display: block;
+  height: 0px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  transition: all 0.5s cubic-bezier(0.185, 0.54, 0.315, 1);
+  width: 100%;
+  z-index: -1;
+}
+
+.btn-8:hover::before {
+  bottom: 0%;
+  height: 100%;
+  top: auto;
 }
 
 /* Button 5 */
