@@ -285,13 +285,13 @@ header {
 
 .btn-7::before {
   background: var(--btn-color-4);
+  bottom: 0;
   color: #000000;
   content: "";
   display: block;
   height: 0;
   left: 0;
   position: absolute;
-  top: 0;
   transition: all 0.5s cubic-bezier(0.185, 0.54, 0.315, 1);
   width: 100%;
   z-index: -1;
@@ -322,13 +322,13 @@ header {
 
 .btn-8::before {
   background: var(--btn-color-4);
+  bottom: 0;
   color: #000000;
   content: "";
   display: block;
   height: 0;
   left: 0;
   position: absolute;
-  top: 0;
   transition: all 0.5s cubic-bezier(0.185, 0.54, 0.315, 1);
   width: 100%;
   z-index: -1;
@@ -392,16 +392,32 @@ header {
 
 /* Button 6 */
 .btn-11 {
-  background: transparent;
+  background: var(--btn-color-6);
   border: 3px solid var(--btn-color-6);
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-11:hover {
+  background-color: #f2f2f2;
+  border-color: transparent;
+  box-shadow: 5px 5px var(--btn-color-6);
   color: var(--btn-color-6);
 }
 
 .btn-12 {
-  background: transparent;
+  background: var(--btn-color-6);
   border: 3px solid var(--btn-color-6);
   border-radius: 25px;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-12:hover {
+  background-color: #f2f2f2;
+  border-color: transparent;
   color: var(--btn-color-6);
+  box-shadow: 5px 5px var(--btn-color-6);
 }
 
 /* Button 7 */
