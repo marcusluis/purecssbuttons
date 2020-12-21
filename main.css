@@ -12,7 +12,7 @@
   --btn-color-5: #32c1ca;
   --btn-color-6: #ffb17a;
   --btn-color-7: #566db3;
-  --btn-color-8: #9fcad4;
+  --btn-color-8: #f2d64b;
   --btn-color-9: #05c7f2;
   --btn-color-10: #05f2c7;
   --btn-color-11: #3c4359;
@@ -513,16 +513,15 @@ a:hover .span-btn-13:nth-child(4) {
   color: #fff;
   display: inline-block;
   position: relative;
-  transition: 0.2s ease-in-out;
   font-size: 0.775rem;
   font-weight: 700;
   padding: 1.3em 2.7em;
   position: relative;
+  transition: 0.3s ease-in-out;
   text-transform: uppercase;
 }
 
 .btn-14:hover {
-  /* background-color: transparent; */
   color: #18ffff;
 }
 
@@ -598,16 +597,35 @@ a:hover .span-btn-14:nth-child(4) {
 
 /* Button 8 */
 .btn-15 {
-  background: transparent;
+  background: var(--btn-color-8);
   border: 3px solid var(--btn-color-8);
-  color: var(--btn-color-8);
+  box-shadow: 5px 5px #fff;
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-15:hover {
+  background-color: #fff;
+  border: 3px solid #fff;
+  color: #000;
+  box-shadow: 5px 5px var(--btn-color-8);
 }
 
 .btn-16 {
-  background: transparent;
+  background: var(--btn-color-8);
   border: 3px solid var(--btn-color-8);
   border-radius: 25px;
-  color: var(--btn-color-8);
+  box-shadow: 5px 5px #fff;
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-16:hover {
+  background-color: #fff;
+  border: 3px solid #fff;
+  border-radius: 25px;
+  color: #000;
+  box-shadow: 5px 5px var(--btn-color-8);
 }
 
 /* Button 9 */
