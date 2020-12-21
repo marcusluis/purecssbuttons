@@ -108,7 +108,7 @@ header {
   cursor: pointer;
   font-weight: 600;
   outline: 0;
-  padding: 15px 35px;
+  padding: 0.9375em 2.1875em;
   text-transform: uppercase;
 }
 
@@ -422,16 +422,178 @@ header {
 
 /* Button 7 */
 .btn-13 {
-  background: transparent;
-  border: 3px solid var(--btn-color-7);
-  color: var(--btn-color-7);
+  background-color: var(--btn-color-7);
+  color: #fff;
+  display: inline-block;
+  font-size: 0.775rem;
+  font-weight: 700;
+  padding: 1.3em 2.7em;
+  position: relative;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-13:hover {
+  background-color: transparent;
+  color: #18ffff;
+}
+
+a .span-btn-13 {
+  background-color: #18ffff;
+  display: block;
+  position: absolute;
+}
+
+a .span-btn-13:nth-child(1) {
+  left: 0;
+  bottom: 0;
+  width: 3px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.6s;
+}
+
+a:hover .span-btn-13:nth-child(1) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.6s;
+}
+
+a .span-btn-13:nth-child(2) {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 3px;
+  transform: scaleY(0);
+  transform-origin: right;
+  transition: transform 0.6s;
+}
+
+a:hover .span-btn-13:nth-child(2) {
+  transform: scaleY(1);
+  transform-origin: left;
+  transition: transform 0.6s;
+}
+
+a .span-btn-13:nth-child(3) {
+  right: 0;
+  bottom: 0;
+  width: 3px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.6s;
+}
+
+a:hover .span-btn-13:nth-child(3) {
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform 0.6s;
+}
+
+a .span-btn-13:nth-child(4) {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  transform: scaleY(0);
+  transform-origin: left;
+  transition: transform 0.6s;
+}
+
+a:hover .span-btn-13:nth-child(4) {
+  transform: scaleY(1);
+  transform-origin: right;
+  transition: transform 0.6s;
 }
 
 .btn-14 {
-  background: transparent;
-  border: 3px solid var(--btn-color-7);
-  border-radius: 25px;
-  color: var(--btn-color-7);
+  background: var(--btn-color-7);
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s ease-in-out;
+  font-size: 0.775rem;
+  font-weight: 700;
+  padding: 1.3em 2.7em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-14:hover {
+  /* background-color: transparent; */
+  color: #18ffff;
+}
+
+a .span-btn-14 {
+  background-color: #18ffff;
+  display: block;
+  position: absolute;
+}
+
+a .span-btn-14:nth-child(1) {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.6s;
+  width: 3px;
+}
+
+a:hover .span-btn-14:nth-child(1) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform 0.6s;
+}
+
+a .span-btn-14:nth-child(2) {
+  left: 0;
+  height: 3px;
+  top: 0;
+  transform: scaleY(0);
+  transform-origin: right;
+  transition: transform 0.6s;
+  width: 100%;
+}
+
+a:hover .span-btn-14:nth-child(2) {
+  transform: scaleY(1);
+  transform-origin: left;
+  transition: transform 0.6s;
+}
+
+a .span-btn-14:nth-child(3) {
+  bottom: 0;
+  height: 100%;
+  right: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.6s;
+  width: 3px;
+}
+
+a:hover .span-btn-14:nth-child(3) {
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform 0.6s;
+}
+
+a .span-btn-14:nth-child(4) {
+  bottom: 0;
+  height: 3px;
+  left: 0;
+  transform: scaleY(0);
+  transform-origin: left;
+  transition: transform 0.6s;
+  width: 100%;
+}
+
+a:hover .span-btn-14:nth-child(4) {
+  transform: scaleY(1);
+  transform-origin: right;
+  transition: transform 0.6s;
 }
 
 /* Button 8 */
