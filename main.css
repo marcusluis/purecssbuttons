@@ -6,8 +6,8 @@
   --border-color: 1px solid #292e31;
   --text-color: #f2f2f2;
   --btn-color-1: #dfe1dc;
-  --btn-color-2: #b180d0;
-  --btn-color-3: #0583f2;
+  --btn-color-2: #6f30fe;
+  --btn-color-3: #e57373;
   --btn-color-4: #5ab17c;
   --btn-color-5: #32c1ca;
   --btn-color-6: #ffb17a;
@@ -106,8 +106,9 @@ header {
   border: none;
   color: #0c0c0c;
   cursor: pointer;
-  font-weight: 600;
-  outline: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  outline: 0 !important;
   padding: 0.9375em 2.1875em;
   text-transform: uppercase;
 }
@@ -206,14 +207,10 @@ header {
 .btn-5 {
   background: transparent;
   box-shadow: 0 0 0 3px var(--btn-color-3);
-  color: var(--btn-color-3);
+  color: #fff;
   display: block;
   position: relative;
   overflow: hidden;
-}
-
-.btn-5:hover {
-  color: #fff;
 }
 
 .btn-5::after {
@@ -239,13 +236,9 @@ header {
   background: transparent;
   box-shadow: 0 0 0 3px var(--btn-color-3);
   border-radius: 25px;
-  color: var(--btn-color-3);
+  color: #fff;
   position: relative;
   overflow: hidden;
-}
-
-.btn-6:hover {
-  color: #fff;
 }
 
 .btn-6::after {
@@ -633,6 +626,21 @@ a:hover .span-btn-14:nth-child(4) {
   background-color: transparent;
   border: 3px solid var(--btn-color-9);
   color: var(--btn-color-9);
+  transition: all 0.4s ease;
+}
+
+.btn-17 span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 6.5px;
+  line-height: 0.3;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.btn-17:hover {
+  background-color: var(--btn-color-9);
+  color: #fff;
 }
 
 .btn-18 {
@@ -640,6 +648,21 @@ a:hover .span-btn-14:nth-child(4) {
   border: 3px solid var(--btn-color-9);
   border-radius: 25px;
   color: var(--btn-color-9);
+  transition: all 0.4s ease;
+}
+
+.btn-18 span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 6.5px;
+  line-height: 0.3;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.btn-18:hover {
+  background-color: var(--btn-color-9);
+  color: #fff;
 }
 
 /* Button 10 */
@@ -647,6 +670,12 @@ a:hover .span-btn-14:nth-child(4) {
   background: transparent;
   border: 3px solid var(--btn-color-10);
   color: var(--btn-color-10);
+  transition: all 0.4s ease;
+}
+
+.btn-19:hover {
+  background-color: var(--btn-color-10);
+  color: #fff;
 }
 
 .btn-20 {
@@ -654,6 +683,12 @@ a:hover .span-btn-14:nth-child(4) {
   border: 3px solid var(--btn-color-10);
   color: var(--btn-color-10);
   border-radius: 25px;
+  transition: all 0.4s ease;
+}
+
+.btn-20:hover {
+  background-color: var(--btn-color-10);
+  color: #fff;
 }
 
 /* Button 11 */
@@ -661,6 +696,13 @@ a:hover .span-btn-14:nth-child(4) {
   background: transparent;
   border: 3px solid var(--btn-color-11);
   color: var(--btn-color-11);
+  transition: all 0.4s ease;
+}
+
+.btn-21:hover {
+  background-color: var(--btn-color-11);
+  color: #fff;
+  box-shadow: 3px 0 0 0 #fff;
 }
 
 .btn-22 {
@@ -668,6 +710,13 @@ a:hover .span-btn-14:nth-child(4) {
   border: 3px solid var(--btn-color-11);
   color: var(--btn-color-11);
   border-radius: 25px;
+  transition: all 0.4s ease;
+}
+
+.btn-22:hover {
+  background-color: var(--btn-color-11);
+  color: #fff;
+  box-shadow: 3px 0 0 0 #fff;
 }
 
 /* Button 12 */
@@ -675,6 +724,18 @@ a:hover .span-btn-14:nth-child(4) {
   background: transparent;
   border: 3px solid var(--btn-color-12);
   color: var(--btn-color-12);
+  left: 0;
+  position: relative;
+  top: 0;
+  transition: all 0.2s ease;
+}
+
+.btn-23:hover {
+  background-color: var(--btn-color-12);
+  box-shadow: 3px 3px 0px 0px white, 6px 6px 0px 0px var(--btn-color-12);
+  color: #fff;
+  left: -5px;
+  top: -5px;
 }
 
 .btn-24 {
@@ -682,6 +743,18 @@ a:hover .span-btn-14:nth-child(4) {
   border: 3px solid var(--btn-color-12);
   color: var(--btn-color-12);
   border-radius: 25px;
+  left: 0;
+  position: relative;
+  top: 0;
+  transition: all 0.2s ease;
+}
+
+.btn-24:hover {
+  background-color: var(--btn-color-12);
+  box-shadow: 3px 3px 0px 0px white, 6px 6px 0px 0px var(--btn-color-12);
+  color: #fff;
+  left: -5px;
+  top: -5px;
 }
 
 /* Button 13 */
@@ -739,8 +812,8 @@ a:hover .span-btn-14:nth-child(4) {
 }
 
 .btn-border-25::before {
-  border-right: 1px solid #73f7d2;
-  border-top: 1px solid #73f7d2;
+  border-right: 2px solid #73f7d2;
+  border-top: 2px solid #73f7d2;
   left: 0;
   top: 0;
   transition: width 0.2s 0.5s ease-out, height 0.15s 0.35s linear,
@@ -749,8 +822,8 @@ a:hover .span-btn-14:nth-child(4) {
 
 .btn-border-25::after {
   right: 0;
-  border-bottom: 1px solid #73f7d2;
-  border-left: 1px solid #73f7d2;
+  border-bottom: 2px solid #73f7d2;
+  border-left: 2px solid #73f7d2;
   bottom: 0;
   transition: width 0.2s 0.15s linear, height 0.15s ease-in, opacity 0s 0.35s;
 }
@@ -818,8 +891,8 @@ a:hover .span-btn-14:nth-child(4) {
 }
 
 .btn-border-26::before {
-  border-right: 1px solid #73f7d2;
-  border-top: 1px solid #73f7d2;
+  border-right: 2px solid #73f7d2;
+  border-top: 2px solid #73f7d2;
   left: 0;
   top: 0;
   transition: width 0.2s 0.5s ease-out, height 0.15s 0.35s linear,
@@ -828,8 +901,8 @@ a:hover .span-btn-14:nth-child(4) {
 
 .btn-border-26::after {
   right: 0;
-  border-bottom: 1px solid #73f7d2;
-  border-left: 1px solid #73f7d2;
+  border-bottom: 2px solid #73f7d2;
+  border-left: 2px solid #73f7d2;
   bottom: 0;
   transition: width 0.2s 0.15s linear, height 0.15s ease-in, opacity 0s 0.35s;
 }
@@ -850,46 +923,167 @@ a:hover .span-btn-14:nth-child(4) {
 
 /* Button 14 */
 .btn-27 {
-  background: transparent;
+  background: var(--btn-color-14);
   border: 3px solid var(--btn-color-14);
-  color: var(--btn-color-14);
+  color: #000;
+  transition: 0.3s;
+}
+
+.btn-27:hover {
+  animation: wh 0.4s alternate ease;
+}
+
+@keyframes wh {
+  0% {
+    transform: skewX(7deg);
+  }
+
+  25% {
+    transform: skewX(-7deg);
+  }
+
+  50% {
+    transform: skewX(7deg);
+  }
+
+  75% {
+    transform: skewX(-7deg);
+  }
+
+  100% {
+    transform: skewX(7deg);
+  }
 }
 
 .btn-28 {
-  background: transparent;
+  background: var(--btn-color-14);
   border: 3px solid var(--btn-color-14);
-  color: var(--btn-color-14);
+  color: #000;
   border-radius: 25px;
+}
+
+.btn-28:hover {
+  animation: wh2 0.4s alternate ease;
+}
+
+@keyframes wh2 {
+  0% {
+    transform: skewX(7deg);
+  }
+
+  25% {
+    transform: skewX(-7deg);
+  }
+
+  50% {
+    transform: skewX(7deg);
+  }
+
+  75% {
+    transform: skewX(-7deg);
+  }
+
+  100% {
+    transform: skewX(7deg);
+  }
 }
 
 /* Button 15 */
 .btn-29 {
-  background: transparent;
+  background: var(--btn-color-15);
   border: 3px solid var(--btn-color-15);
-  color: var(--btn-color-15);
+  color: #000;
+}
+
+.btn-29:hover {
+  animation: wh3 0.4s alternate ease;
+}
+
+@keyframes wh3 {
+  0% {
+    transform: skewY(5deg);
+  }
+
+  25% {
+    transform: skewY(-5deg);
+  }
+
+  50% {
+    transform: skewY(5deg);
+  }
+
+  75% {
+    transform: skewY(-5deg);
+  }
+
+  100% {
+    transform: skewY(5deg);
+  }
 }
 
 .btn-30 {
-  background: transparent;
+  background: var(--btn-color-15);
   border: 3px solid var(--btn-color-15);
-  color: var(--btn-color-15);
+  color: #000;
   border-radius: 25px;
+}
+
+.btn-30:hover {
+  animation: wh3 0.4s alternate ease;
+}
+
+@keyframes wh3 {
+  0% {
+    transform: skewY(5deg);
+  }
+
+  25% {
+    transform: skewY(-5deg);
+  }
+
+  50% {
+    transform: skewY(5deg);
+  }
+
+  75% {
+    transform: skewY(-5deg);
+  }
+
+  100% {
+    transform: skewY(5deg);
+  }
 }
 
 /* Button 16 */
 .btn-31 {
-  background: transparent;
+  background: var(--btn-color-16);
   border: 3px solid var(--btn-color-16);
-  color: var(--btn-color-16);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18), 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #000;
   margin-bottom: 20px;
+  transition: all 0.4s ease;
+}
+
+.btn-31:hover {
+  box-shadow: 0 3px 5px 0 #fff;
+  transform: translateY(-5px);
+  will-change: transform;
 }
 
 .btn-32 {
-  background: transparent;
+  background: var(--btn-color-16);
   border: 3px solid var(--btn-color-16);
-  color: var(--btn-color-16);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18), 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #000;
   border-radius: 25px;
   margin-bottom: 20px;
+  transition: all 0.4s ease;
+}
+
+.btn-32:hover {
+  box-shadow: 0 3px 5px 0 #fff;
+  transform: translateY(-5px);
+  will-change: transform;
 }
 
 section {
