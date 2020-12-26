@@ -152,16 +152,79 @@
 
     <section class="cards">
       <div class="card card-1">
-        <h3>Card 1</h3>
+        <h3>Button 1</h3>
         <p>HTML code</p>
         <pre>
           <code class="html">
   &lt;button class="btn btn-1"&gt;Button 1&lt;/button&gt;
           </code>
         </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-1 {
+    background-color: transparent;
+    box-shadow: 0 0 0 3px var(--btn-color-1);
+    color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+  .btn-1:hover {
+    box-shadow: 0 0 7px 3px var(--btn-color-1);
+    color: var(--btn-color-1);
+    text-shadow: 0 0 1px var(--btn-color-1);
+  }
+          </code>
+        </pre>
       </div>
 
-      <div class="card card-2">Card 2</div>
+      <div class="card card-2">
+        <h3>Button 1</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-2"&gt;Button 1&lt;/button&gt;          
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-2 {
+    background-color: transparent;
+    box-shadow: 0 0 0 3px var(--btn-color-1);
+    border-radius: 25px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+  .btn-2:hover {
+    box-shadow: 0 0 7px 3px var(--btn-color-1);
+    color: var(--btn-color-1);
+    text-shadow: 0 0 1px var(--btn-color-1);
+  }
+          </code>
+        </pre>
+      </div>
 
       <div class="card card-3">Card 3</div>
 

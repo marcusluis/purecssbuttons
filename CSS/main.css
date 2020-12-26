@@ -22,13 +22,9 @@ section {
 }
 
 .card {
-  width: 360px;
-  height: 380px;
   background-color: #292e31;
   border-radius: 0.375em;
-}
-
-/* Card 1 */
-.card-1 {
   font-size: 13px;
+  height: auto;
+  width: 360px;
 }
