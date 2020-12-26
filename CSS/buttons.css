@@ -1085,8 +1085,3 @@ a:hover .span-btn-14:nth-child(4) {
   transform: translateY(-5px);
   will-change: transform;
 }
-
-section {
-  position: absolute;
-  margin-left: 405px;
-}
