@@ -555,7 +555,7 @@
       </div>
 
       <div class="card card-9">
-        <h3>Button 5</h3>
+        <h3 class="btn-color-2">Button 5</h3>
         <p>HTML code</p>
         <pre>
           <code class="html">
@@ -604,7 +604,7 @@
       </div>
 
       <div class="card card-10">
-        <h3>Button 5</h3>
+        <h3 class="btn-color-2">Button 5</h3>
         <p>HTML code</p>
         <pre>
           <code class="html">
@@ -653,17 +653,1221 @@
         </pre>
       </div>
 
-      <div class="card card-11">Card 11</div>
+      <div class="card card-11">
+        <h3 class="btn-color-2">Button 6</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-11"&gt;Button 6&lt;/button&gt;
+          </code>
+        </pre>
 
-      <div class="card card-12">Card 12</div>
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
 
-      <div class="card card-13">Card 13</div>
+  .btn-11 {
+    background: var(--btn-color-2);
+    border: 3px solid var(--btn-color-2);
+    color: #fff;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .btn-11:hover {
+    background-color: #fff;
+    border-color: transparent;
+    box-shadow: 5px 5px var(--btn-color-2);
+    color: var(--btn-color-2);
+  }
+          </code>
+        </pre>
+      </div>
 
-      <div class="card card-14">Card 14</div>
+      <div class="card card-12">
+        <h3 class="btn-color-2">Button 6</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-12"&gt;Button 6&lt;/button&gt;
+          </code>
+        </pre>
 
-      <div class="card card-15">Card 15</div>
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
 
-      <div class="card card-16">Card 16</div>
+  .btn-12 {
+    background: var(--btn-color-2);
+    border: 3px solid var(--btn-color-2);
+    border-radius: 25px;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .btn-12:hover {
+    background-color: #fff;
+    border-color: transparent;
+    color: var(--btn-color-2);
+    box-shadow: 5px 5px var(--btn-color-2);
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-13">
+        <h3 class="btn-color-2">Button 7</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;a href="#" class="btn-13"&gt;
+    &lt;span class="span-btn-13"&gt;&lt;/span&gt;
+    &lt;span class="span-btn-13"&gt;&lt;/span&gt;
+    &lt;span class="span-btn-13"&gt;&lt;/span&gt;
+    &lt;span class="span-btn-13"&gt;&lt;/span&gt;
+    Button 7
+  &lt;/a&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn-13 {
+    background-color: var(--btn-color-2);
+    color: #fff;
+    display: inline-block;
+    font-size: 0.775rem;
+    font-weight: 700;
+    padding: 1.3em 2.7em;
+    position: relative;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn-13:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  a .span-btn-13 {
+    background-color: #fff;
+    display: block;
+    position: absolute;
+  }
+  
+  a .span-btn-13:nth-child(1) {
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.6s;
+  }
+  
+  a:hover .span-btn-13:nth-child(1) {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.6s;
+  }
+  
+  a .span-btn-13:nth-child(2) {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    transform: scaleY(0);
+    transform-origin: right;
+    transition: transform 0.6s;
+  }
+  
+  a:hover .span-btn-13:nth-child(2) {
+    transform: scaleY(1);
+    transform-origin: left;
+    transition: transform 0.6s;
+  }
+  
+  a .span-btn-13:nth-child(3) {
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.6s;
+  }
+  
+  a:hover .span-btn-13:nth-child(3) {
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.6s;
+  }
+  
+  a .span-btn-13:nth-child(4) {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    transform: scaleY(0);
+    transform-origin: left;
+    transition: transform 0.6s;
+  }
+  
+  a:hover .span-btn-13:nth-child(4) {
+    transform: scaleY(1);
+    transform-origin: right;
+    transition: transform 0.6s;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-14">
+        <h3 class="btn-color-2">Button 7</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;a href="#" class="btn-14"&gt;
+    &lt;span class="span-btn-14"&gt;&lt;/span&gt;
+    &lt;span class="span-btn-14"&gt;&lt;/span&gt;
+    &lt;span class="span-btn-14"&gt;&lt;/span&gt;
+    &lt;span class="span-btn-14"&gt;&lt;/span&gt;
+    Button 7
+  &lt;/a&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn-14 {
+    background: var(--btn-color-2);
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    font-size: 0.775rem;
+    font-weight: 700;
+    padding: 1.3em 2.7em;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+  
+  .btn-14:hover {
+    color: #fff;
+  }
+  
+  a .span-btn-14 {
+    background-color: #fff;
+    display: block;
+    position: absolute;
+  }
+  
+  a .span-btn-14:nth-child(1) {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.6s;
+    width: 3px;
+  }
+  
+  a:hover .span-btn-14:nth-child(1) {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.6s;
+  }
+  
+  a .span-btn-14:nth-child(2) {
+    left: 0;
+    height: 3px;
+    top: 0;
+    transform: scaleY(0);
+    transform-origin: right;
+    transition: transform 0.6s;
+    width: 100%;
+  }
+  
+  a:hover .span-btn-14:nth-child(2) {
+    transform: scaleY(1);
+    transform-origin: left;
+    transition: transform 0.6s;
+  }
+  
+  a .span-btn-14:nth-child(3) {
+    bottom: 0;
+    height: 100%;
+    right: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.6s;
+    width: 3px;
+  }
+  
+  a:hover .span-btn-14:nth-child(3) {
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.6s;
+  }
+  
+  a .span-btn-14:nth-child(4) {
+    bottom: 0;
+    height: 3px;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: left;
+    transition: transform 0.6s;
+    width: 100%;
+  }
+  
+  a:hover .span-btn-14:nth-child(4) {
+    transform: scaleY(1);
+    transform-origin: right;
+    transition: transform 0.6s;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-15">
+        <h3 class="btn-color-2">Button 8</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-15"&gt;Button 8&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+         <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-15 {
+    background: var(--btn-color-2);
+    border: 3px solid var(--btn-color-2);
+    box-shadow: 5px 5px #fff;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn-15:hover {
+    background-color: #fff;
+    border: 3px solid #fff;
+    color: var(--btn-color-2);
+    box-shadow: 5px 5px var(--btn-color-2);
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-16">
+        <h3 class="btn-color-2">Button 8</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-16"&gt;Button 8&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-16 {
+    background: var(--btn-color-2);
+    border: 3px solid var(--btn-color-2);
+    border-radius: 25px;
+    box-shadow: 5px 5px #fff;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn-16:hover {
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 25px;
+    color: var(--btn-color-2);
+    box-shadow: 5px 5px var(--btn-color-2);
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-17">
+        <h3 class="btn-color-3">Button 9</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-17"&gt;Button 9 &lt;span&gt;&#8594&lt;/span&gt;&lt;;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-17 {
+    background-color: transparent;
+    border: 3px solid var(--btn-color-3);
+    color: #fff;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-17 span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 6.5px;
+    line-height: 0.3;
+    font-size: 1.5rem;
+    white-space: nowrap;
+  }
+  
+  .btn-17:hover {
+    background-color: var(--btn-color-3);
+    color: #000;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-18">
+        <h3 class="btn-color-3">Button 9</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-18"&gt;Button 9 &lt;span&gt;&#8594&lt;/span&gt;&lt;;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-18 {
+    background: transparent;
+    border: 3px solid var(--btn-color-3);
+    border-radius: 25px;
+    color: #fff;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-18 span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 6.5px;
+    line-height: 0.3;
+    font-size: 1.5rem;
+    white-space: nowrap;
+  }
+  
+  .btn-18:hover {
+    background-color: var(--btn-color-3);
+    color: #000;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-19">
+        <h3 class="btn-color-3">Button 10</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-19"&gt;Button 10 &#8702&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-19 {
+    background: transparent;
+    border: 3px solid var(--btn-color-3);
+    color: #fff;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-19:hover {
+    background-color: var(--btn-color-3);
+    color: #000;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-20">
+        <h3 class="btn-color-3">Button 10</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-20"&gt;Button 10 &#8702&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-20 {
+    background: transparent;
+    border: 3px solid var(--btn-color-3);
+    color: #fff;
+    border-radius: 25px;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-20:hover {
+    background-color: var(--btn-color-3);
+    color: #000;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-21">
+        <h3 class="btn-color-3">Button 11</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-21"&gt;Button 11&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-21 {
+    background: transparent;
+    border: 3px solid var(--btn-color-3);
+    color: #fff;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-21:hover {
+    background-color: var(--btn-color-3);
+    color: #000;
+    box-shadow: 3px 0 0 0 #fff;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-22">
+        <h3 class="btn-color-3">Button 11</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-22"&gt;Button 11&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-22 {
+    background: transparent;
+    border: 3px solid var(--btn-color-3);
+    color: #fff;
+    border-radius: 25px;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-22:hover {
+    background-color: var(--btn-color-3);
+    color: #000;
+    box-shadow: 3px 0 0 0 #fff;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-23">
+        <h3 class="btn-color-3">Button 12</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-23"&gt;Button 12&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-23 {
+    background: transparent;
+    border: 3px solid var(--btn-color-3);
+    color: #fff;
+    left: 0;
+    position: relative;
+    top: 0;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-23:hover {
+    background-color: var(--btn-color-3);
+    box-shadow: 3px 3px 0px 0px white, 6px 6px 0px 0px var(--btn-color-3);
+    color: #000;
+    left: -5px;
+    top: -5px;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-24">
+        <h3 class="btn-color-3">Button 12</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-24"&gt;Button 12&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-24 {
+    background: transparent;
+    border: 3px solid var(--btn-color-3);
+    color: #fff;
+    border-radius: 25px;
+    left: 0;
+    position: relative;
+    top: 0;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-24:hover {
+    background-color: var(--btn-color-3);
+    box-shadow: 3px 3px 0px 0px white, 6px 6px 0px 0px var(--btn-color-3);
+    color: #000;
+    left: -5px;
+    top: -5px;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-25">
+        <h3 class="btn-color-4">Button 13</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn-25 btn-bg-25 btn-border-25"&gt;
+    &lt;span&gt;Button 13&lt;/span&gt;
+  &lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn-25 {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    outline: 0;
+    outline-offset: 0;
+    position: relative;
+    width: auto;
+  }
+  
+  .btn-25 span {
+    display: inline-block;
+    font-weight: 700;
+    left: 0;
+    padding: 0.9375em 2.1875em;
+    position: relative;
+    text-transform: uppercase;
+    top: 0;
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .btn-bg-25 {
+    padding: 5px;
+  }
+  
+  .btn-bg-25 span {
+    color: #000;
+    background-color: var(--btn-color-4);
+  }
+  
+  .btn-bg-25:hover span {
+    color: var(--btn-color-4);
+    background-color: transparent;
+  }
+  
+  .btn-bg-25:before,
+  .btn-bg-25::after {
+    background: transparent;
+    z-index: 2;
+  }
+  
+  .btn-border-25::before,
+  .btn-border-25::after {
+    content: "";
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    width: 0;
+  }
+  
+  .btn-border-25::before {
+    border-right: 2px solid var(--btn-color-4);
+    border-top: 2px solid var(--btn-color-4);
+    left: 0;
+    top: 0;
+    transition: width 0.2s 0.5s ease-out, height 0.15s 0.35s linear,
+      opacity 0s 0.7s;
+  }
+  
+  .btn-border-25::after {
+    right: 0;
+    border-bottom: 2px solid var(--btn-color-4);
+    border-left: 2px solid var(--btn-color-4);
+    bottom: 0;
+    transition: width 0.2s 0.15s linear, height 0.15s ease-in, opacity 0s 0.35s;
+  }
+  
+  .btn-border-25:hover::before,
+  .btn-border-25:hover::after {
+    height: 100%;
+    opacity: 1;
+    width: 100%;
+  }
+  .btn-border-25:hover::before {
+    transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s;
+  }
+  .btn-border-25:hover::after {
+    transition: width 0.2s 0.35s linear, height 0.15s 0.5s ease-out,
+      opacity 0s 0.3s;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-26">
+        <h3 class="btn-color-4">Button 13</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn-26 btn-bg-26 btn-border-26"&gt;
+    &lt;span&gt;Button 13&lt;/span&gt;
+  &lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn-26 {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    outline: 0;
+    outline-offset: 0;
+    position: relative;
+    width: auto;
+  }
+  
+  .btn-26 span {
+    display: inline-block;
+    font-weight: 700;
+    left: 0;
+    padding: 0.9375em 2.1875em;
+    position: relative;
+    text-transform: uppercase;
+    top: 0;
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .btn-bg-26 {
+    padding: 5px;
+  }
+  
+  .btn-bg-26 span {
+    color: #000;
+    background-color: var(--btn-color-4);
+  }
+  
+  .btn-bg-26:before,
+  .btn-bg-26::after {
+    background: transparent;
+    z-index: 2;
+  }
+  
+  .btn-border-26::before,
+  .btn-border-26::after {
+    content: "";
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    width: 0;
+  }
+  
+  .btn-border-26::before {
+    border-right: 2px solid var(--btn-color-4);
+    border-top: 2px solid var(--btn-color-4);
+    left: 0;
+    top: 0;
+    transition: width 0.2s 0.5s ease-out, height 0.15s 0.35s linear,
+      opacity 0s 0.7s;
+  }
+  
+  .btn-border-26::after {
+    right: 0;
+    border-bottom: 2px solid var(--btn-color-4);
+    border-left: 2px solid var(--btn-color-4);
+    bottom: 0;
+    transition: width 0.2s 0.15s linear, height 0.15s ease-in, opacity 0s 0.35s;
+  }
+  
+  .btn-border-26:hover::before,
+  .btn-border-26:hover::after {
+    height: 100%;
+    opacity: 1;
+    width: 100%;
+  }
+  .btn-border-26:hover::before {
+    transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s;
+  }
+  .btn-border-26:hover::after {
+    transition: width 0.2s 0.35s linear, height 0.15s 0.5s ease-out,
+      opacity 0s 0.3s;
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-27">
+        <h3 class="btn-color-4">Button 14</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-27"&gt;Button 14&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-27 {
+    background: var(--btn-color-4);
+    border: 3px solid var(--btn-color-4);
+    color: #000;
+    transition: 0.3s;
+  }
+  
+  .btn-27:hover {
+    animation: wh 0.4s alternate ease;
+  }
+  
+  @keyframes wh {
+    0% {
+      transform: skewX(7deg);
+    }
+  
+    25% {
+      transform: skewX(-7deg);
+    }
+  
+    50% {
+      transform: skewX(7deg);
+    }
+  
+    75% {
+      transform: skewX(-7deg);
+    }
+  
+    100% {
+      transform: skewX(7deg);
+    }
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-28">
+        <h3 class="btn-color-4">Button 14</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-28"&gt;Button 14&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-28 {
+    background: var(--btn-color-4);
+    border: 3px solid var(--btn-color-4);
+    color: #000;
+    border-radius: 25px;
+  }
+  
+  .btn-28:hover {
+    animation: wh2 0.4s alternate ease;
+  }
+  
+  @keyframes wh2 {
+    0% {
+      transform: skewX(7deg);
+    }
+  
+    25% {
+      transform: skewX(-7deg);
+    }
+  
+    50% {
+      transform: skewX(7deg);
+    }
+  
+    75% {
+      transform: skewX(-7deg);
+    }
+  
+    100% {
+      transform: skewX(7deg);
+    }
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-29">
+        <h3 class="btn-color-4">Button 15</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-29"&gt;Button 15&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-29 {
+    background: var(--btn-color-4);
+    border: 3px solid var(--btn-color-4);
+    color: #000;
+  }
+  
+  .btn-29:hover {
+    animation: wh3 0.4s alternate ease;
+  }
+  
+  @keyframes wh3 {
+    0% {
+      transform: skewY(5deg);
+    }
+  
+    25% {
+      transform: skewY(-5deg);
+    }
+  
+    50% {
+      transform: skewY(5deg);
+    }
+  
+    75% {
+      transform: skewY(-5deg);
+    }
+  
+    100% {
+      transform: skewY(5deg);
+    }
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-30">
+        <h3 class="btn-color-4">Button 15</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-30"&gt;Button 15&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-30 {
+    background: var(--btn-color-4);
+    border: 3px solid var(--btn-color-4);
+    color: #000;
+    border-radius: 25px;
+  }
+  
+  .btn-30:hover {
+    animation: wh3 0.4s alternate ease;
+  }
+  
+  @keyframes wh3 {
+    0% {
+      transform: skewY(5deg);
+    }
+  
+    25% {
+      transform: skewY(-5deg);
+    }
+  
+    50% {
+      transform: skewY(5deg);
+    }
+  
+    75% {
+      transform: skewY(-5deg);
+    }
+  
+    100% {
+      transform: skewY(5deg);
+    }
+  }
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-31">
+        <h3 class="btn-color-4">Button 16</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-31"&gt;Button 16&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+
+  .btn-31 {
+    background: var(--btn-color-4);
+    border: 3px solid var(--btn-color-4);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18), 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000;
+    margin-bottom: 20px;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-31:hover {
+    transform: translateY(-5px);
+    will-change: transform;
+  }      
+          </code>
+        </pre>
+      </div>
+
+      <div class="card card-32">
+        <h3 class="btn-color-4">Button 16</h3>
+        <p>HTML code</p>
+        <pre>
+          <code class="html">
+  &lt;button class="btn btn-32"&gt;Button 16&lt;/button&gt;
+          </code>
+        </pre>
+
+        <p>CSS code</p>
+        <pre>
+          <code class="css">
+  .btn {
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: 0 !important;
+    padding: 0.9375em 2.1875em;
+    text-transform: uppercase;
+  }
+  
+  .btn-32 {
+    background: var(--btn-color-4);
+    border: 3px solid var(--btn-color-4);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18), 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-32:hover {
+    transform: translateY(-5px);
+    will-change: transform;
+  }
+          </code>
+        </pre>
+      </div>
     </section>
 
     <script

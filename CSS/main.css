@@ -41,3 +41,15 @@ section {
 .btn-color-1 {
   color: var(--btn-color-1);
 }
+
+.btn-color-2 {
+  color: var(--btn-color-2);
+}
+
+.btn-color-3 {
+  color: var(--btn-color-3);
+}
+
+.btn-color-4 {
+  color: var(--btn-color-4);
+}
