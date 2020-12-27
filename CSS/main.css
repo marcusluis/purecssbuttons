@@ -8,6 +8,10 @@
   box-sizing: inherit;
 }
 
+h3 {
+  margin: 0.75em 0;
+}
+
 /* Section 1 */
 section {
   position: absolute;
@@ -27,4 +31,8 @@ section {
   font-size: 13px;
   height: auto;
   width: 360px;
+}
+
+.btn-color-1 {
+  color: var(--btn-color-1);
 }
