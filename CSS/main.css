@@ -26,11 +26,16 @@ section {
 }
 
 .card {
-  background-color: #292e31;
+  background-color: #24292c;
   border-radius: 0.375em;
   font-size: 13px;
   height: auto;
   width: 360px;
+}
+
+.card h3,
+.card p {
+  margin-left: 0.625em;
 }
 
 .btn-color-1 {
