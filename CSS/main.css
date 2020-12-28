@@ -1,41 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
 :root {
-  box-sizing: border-box;
+  --primary-color: #fbfbfb;
+  --border-color: 1px solid #292e31;
+  --text-color: #f2f2f2;
+  --btn-color-1: #e57373;
+  --btn-color-2: #32c1ca;
+  --btn-color-3: #66bb6a;
+  --btn-color-4: #f2ea79;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h3 {
-  margin: 0.75em 0;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(10px + 2vmin);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #24292c;
+  border-radius: 12px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  background-color: #12171b;
+  width: 100%;
+  padding: 1.5em 0;
+}
+
+header h1 {
+  text-align: center;
 }
 
 /* Section 1 */
-section {
-  position: absolute;
-  margin-left: 445px;
-  margin-top: 30px;
+.section-1 {
+  max-width: 100%;
+  width: 1180px;
 }
 
-.cards {
+/* Container */
+section .container {
+  padding: 1em 1em;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px 20px;
+  grid-template-columns: repeat(2, 50%);
+  gap: 10px;
 }
 
-.card {
-  background-color: #24292c;
+section .box {
+  background-color: #d0d1d1;
   border-radius: 0.375em;
-  font-size: 13px;
-  height: auto;
-  width: 360px;
+  height: 8em;
 }
 
-.card h3,
-.card p {
-  margin-left: 0.625em;
+button {
+  margin: 0 auto;
 }
 
 .btn-color-1 {
