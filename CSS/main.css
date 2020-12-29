@@ -4,10 +4,11 @@
   --primary-color: #fbfbfb;
   --border-color: 1px solid #292e31;
   --text-color: #f2f2f2;
-  --btn-color-1: #e57373;
-  --btn-color-2: #32c1ca;
-  --btn-color-3: #66bb6a;
-  --btn-color-4: #f2ea79;
+  --btn-color-1: #b2cbe5;
+  --btn-color-2: #ff8f8f;
+  --btn-color-3: #80b380;
+  --btn-color-4: #8180cb;
+  --border-radius: 1.563em;
 }
 
 *,
@@ -29,12 +30,12 @@ body {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 9px;
+  width: 0.375em;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #24292c;
-  border-radius: 12px;
+  background-color: #d8d8d8;
+  border-radius: 0.5em;
 }
 
 a {
@@ -71,24 +72,35 @@ header .half-highlight {
 .section-1 {
   max-width: 100%;
   width: 1180px;
+  margin: 0 auto;
 }
 
 /* Container */
-section .container {
+.section-1 .container {
   padding: 1em 1em;
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  gap: 10px;
+  gap: 0.625em;
 }
 
-section .box {
-  background-color: #d0d1d1;
+.section-1 .box {
+  background-color: #f7f7f7;
   border-radius: 0.375em;
   height: 8em;
+  /* Center btn within a div */
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-button {
+/* Section 2 */
+.section-2 {
+  width: 90%;
   margin: 0 auto;
+}
+
+.section-2 code {
+  font-size: 0.875rem;
 }
 
 .btn-color-1 {

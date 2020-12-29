@@ -8,3 +8,76 @@
   padding: 0.9375em 2.1875em;
   text-transform: uppercase;
 }
+
+/* Button 1 */
+.btn-1 {
+  background-color: var(--btn-color-1);
+  transition: all 0.3s ease;
+}
+
+.btn-1:hover {
+  background-color: transparent;
+  box-shadow: 0 0 0 2px var(--btn-color-1);
+}
+
+.btn-2 {
+  background-color: var(--btn-color-1);
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+}
+
+.btn-2:hover {
+  background-color: transparent;
+  box-shadow: 0 0 0 2px var(--btn-color-1);
+}
+
+/* Button 2 */
+.btn-3 {
+  background-color: var(--btn-color-1);
+}
+
+.btn-3:hover {
+  animation: pulse 1.5s ease;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--btn-color-1);
+  }
+
+  70% {
+    box-shadow: 0 0 0 25px rgba(204, 169, 44, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+.btn-4 {
+  background-color: var(--btn-color-1);
+  border-radius: var(--border-radius);
+}
+
+.btn-4:hover {
+  animation: pulse2 1.5s ease;
+}
+
+@keyframes pulse2 {
+  0% {
+    box-shadow: 0 0 0 0 var(--btn-color-1);
+  }
+
+  70% {
+    box-shadow: 0 0 0 25px rgba(204, 169, 44, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+/* Button 3 */
+.btn-5 {
+  background-color: var(--btn-color-1);
+}
