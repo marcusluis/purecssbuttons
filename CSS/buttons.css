@@ -363,24 +363,26 @@
   color: #000;
   overflow: hidden;
   position: relative;
-  z-index: 1;
+}
+
+.btn-15:hover {
+  background-color: #ff7d7d;
 }
 
 .btn-15::before {
-  background-color: #ff7d7d;
+  background-color: rgba(255, 255, 255, 0.1);
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  transform: rotateX(90deg);
+  transform: translateX(-100%) rotate(-45deg);
   transition: all 0.6s ease-in 50ms;
-  z-index: -1;
 }
 
 .btn-15:hover::before {
-  transform: rotateX(0);
+  transform: translateX(100%) rotate(-45deg);
   transition: all 0.5s ease-out 50ms;
 }
 
@@ -390,23 +392,179 @@
   color: #000;
   overflow: hidden;
   position: relative;
-  z-index: 1;
+}
+
+.btn-16:hover {
+  background-color: #ff7d7d;
 }
 
 .btn-16::before {
-  background-color: #ff7d7d;
+  background-color: rgba(255, 255, 255, 0.1);
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
-  transform: rotateX(90deg);
+  transform: translateX(-100%) rotate(-45deg);
   transition: all 0.6s ease-in 50ms;
-  z-index: -1;
 }
 
 .btn-16:hover::before {
-  transform: rotateX(0);
+  transform: translateX(100%) rotate(-45deg);
   transition: all 0.5s ease-out 50ms;
+}
+
+/* Button 9 */
+.btn-17 {
+  background-color: var(--btn-color-3);
+  color: #000;
+}
+
+.btn-18 {
+  background-color: var(--btn-color-3);
+  border-radius: var(--border-radius);
+  color: #000;
+}
+
+/* Button 10 */
+.btn-19 {
+  background-color: var(--btn-color-3);
+  color: #000;
+}
+
+.btn-20 {
+  background-color: var(--btn-color-3);
+  border-radius: var(--border-radius);
+  color: #000;
+}
+
+/* Button 11 */
+.btn-21 {
+  background-color: var(--btn-color-3);
+  color: #000;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.6s ease-in 50ms;
+  z-index: 1;
+}
+
+.btn-21::before {
+  background-color: #73a173;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+}
+
+.btn-22 {
+  background-color: var(--btn-color-3);
+  border-radius: var(--border-radius);
+  color: #000;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.6s ease-in 50ms;
+  z-index: 1;
+}
+
+.btn-22::before {
+  background-color: #73a173;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+}
+
+/* Button 12 */
+.btn-23 {
+  background-color: var(--btn-color-3);
+  color: #000;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.6s ease-in 50ms;
+  z-index: 1;
+}
+
+.btn-23::before {
+  background-color: #73a173;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  height: 0;
+  transition: all 0.5s ease-out 50ms;
+  width: 50%;
+  z-index: -1;
+}
+
+.btn-23:hover::before {
+  height: 100%;
+}
+
+.btn-23::after {
+  background-color: #73a173;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  height: 0;
+  transition: all 0.5s ease-out 50ms;
+  width: 50%;
+  z-index: -1;
+}
+
+.btn-23:hover::after {
+  height: 100%;
+}
+
+.btn-24 {
+  background-color: var(--btn-color-3);
+  border-radius: var(--border-radius);
+  color: #000;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.6s ease-in 50ms;
+  z-index: 1;
+}
+
+.btn-24::before {
+  background-color: #73a173;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  height: 0;
+  transition: all 0.5s ease-out 50ms;
+  width: 50%;
+  z-index: -1;
+}
+
+.btn-24:hover::before {
+  height: 100%;
+}
+
+.btn-24::after {
+  background-color: #73a173;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  height: 0;
+  transition: all 0.5s ease-out 50ms;
+  width: 50%;
+  z-index: -1;
+}
+
+.btn-24:hover::after {
+  height: 100%;
 }
