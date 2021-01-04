@@ -82,6 +82,13 @@ header .half-highlight {
   gap: 0.625em;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-1 .container {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+  }
+}
+
 .section-1 .box {
   background-color: #f7f7f7;
   border-radius: 0.375em;
@@ -146,4 +153,11 @@ footer {
 
 footer p {
   color: #666666;
+}
+
+footer a {
+  color: #adcbff;
+  font-size: 0.875rem;
+  padding-top: 0.313em;
+  text-decoration: underline;
 }
