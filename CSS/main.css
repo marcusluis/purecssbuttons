@@ -29,7 +29,7 @@ body {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 0.375em;
+  width: 0.6em;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -116,4 +116,34 @@ header .half-highlight {
 
 .btn-color-4 {
   color: var(--btn-color-4);
+}
+
+/* Section 3 */
+.section-3 {
+  margin: 1.375em auto;
+  text-align: center;
+}
+
+.section-3 h3 {
+  color: #191919;
+  padding-bottom: 0.625em;
+}
+
+.section-3 li {
+  list-style: none;
+  padding-bottom: 0.313em;
+}
+
+.section-3 li a {
+  color: #a5a5a5;
+}
+
+/* Footer */
+footer {
+  margin: 2.375em auto;
+  text-align: center;
+}
+
+footer p {
+  color: #666666;
 }
