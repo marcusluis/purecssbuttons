@@ -8,6 +8,14 @@
   text-transform: uppercase;
 }
 
+.btn:active {
+  position: relative;
+  top: 1px;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
+}
+
 /* Button 1 */
 .btn-1 {
   background-color: var(--btn-color-1);
