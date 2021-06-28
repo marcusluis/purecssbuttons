@@ -9,7 +9,6 @@
 }
 
 .btn:active {
-  position: relative;
   top: 1px;
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
