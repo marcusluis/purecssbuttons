@@ -27,16 +27,6 @@ body {
   font-size: calc(10px + 2vmin);
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 0.6em;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #d8d8d8;
-  border-radius: 0.5em;
-}
-
 a {
   cursor: pointer;
   text-decoration: none;

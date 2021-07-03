@@ -4,15 +4,19 @@
   font-weight: 700;
   letter-spacing: 1px;
   outline: 0 !important;
-  padding: 0.9375em 2.1875em;
+  padding: 1em 2.2em;
   text-transform: uppercase;
 }
 
+.btn:focus {
+  opacity: 0.8;
+}
+
 .btn:active {
-  top: 1px;
+  transform: scale(0.9);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
 }
 
 /* Button 1 */
@@ -45,10 +49,12 @@
 .btn-3 {
   background-color: var(--btn-color-1);
   color: #000;
+  transition: all 0.3s ease-in 50ms;
 }
 
 .btn-3:hover {
   animation: pulse 1.5s ease;
+  transition: all 0.3s ease-out 50ms;
 }
 
 @keyframes pulse {
@@ -69,10 +75,12 @@
   background-color: var(--btn-color-1);
   border-radius: var(--border-radius);
   color: #000;
+  transition: all 0.3s ease-in 50ms;
 }
 
 .btn-4:hover {
   animation: pulse2 1.5s ease;
+  transition: all 0.3s ease-out 50ms;
 }
 
 @keyframes pulse2 {
