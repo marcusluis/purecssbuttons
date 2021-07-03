@@ -1,1 +1,1 @@
-# A Website with pure CSS buttons
+# Some ugly buttons. 💩
